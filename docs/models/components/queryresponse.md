@@ -1,0 +1,10 @@
+# QueryResponse
+
+
+## Fields
+
+| Field                                                                                           | Type                                                                                            | Required                                                                                        | Description                                                                                     |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `Results`                                                                                       | []map[string][components.QueryResponseResults](../../models/components/queryresponseresults.md) | :heavy_minus_sign:                                                                              | N/A                                                                                             |
+| `Aggregations`                                                                                  | [][components.AggregationResponse](../../models/components/aggregationresponse.md)              | :heavy_minus_sign:                                                                              | N/A                                                                                             |
+| `TotalCount`                                                                                    | **int64*                                                                                        | :heavy_minus_sign:                                                                              | N/A                                                                                             |

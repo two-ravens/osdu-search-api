@@ -1,0 +1,13 @@
+# SpatialFilter
+
+
+## Fields
+
+| Field                                                                     | Type                                                                      | Required                                                                  | Description                                                               |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| `Field`                                                                   | *string*                                                                  | :heavy_check_mark:                                                        | N/A                                                                       |
+| `ByBoundingBox`                                                           | [*components.ByBoundingBox](../../models/components/byboundingbox.md)     | :heavy_minus_sign:                                                        | N/A                                                                       |
+| `ByDistance`                                                              | [*components.ByDistance](../../models/components/bydistance.md)           | :heavy_minus_sign:                                                        | N/A                                                                       |
+| `ByGeoPolygon`                                                            | [*components.ByGeoPolygon](../../models/components/bygeopolygon.md)       | :heavy_minus_sign:                                                        | N/A                                                                       |
+| `ByIntersection`                                                          | [*components.ByIntersection](../../models/components/byintersection.md)   | :heavy_minus_sign:                                                        | N/A                                                                       |
+| `ByWithinPolygon`                                                         | [*components.ByWithinPolygon](../../models/components/bywithinpolygon.md) | :heavy_minus_sign:                                                        | N/A                                                                       |

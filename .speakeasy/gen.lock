@@ -1,0 +1,155 @@
+lockVersion: 2.0.0
+id: 0cee2683-3c62-4262-815f-8d5dd17bfe8e
+management:
+  docChecksum: 4bf756ff92212b48f1e0936b14d787fe
+  docVersion: "2.0"
+  speakeasyVersion: 1.409.0
+  generationVersion: 2.429.0
+  releaseVersion: 0.0.1
+  configChecksum: e78b720f8c05dc2f5dddefb31c1cb6cd
+features:
+  go:
+    additionalDependencies: 0.1.0
+    core: 3.5.12
+    defaultEnabledRetries: 0.2.0
+    envVarSecurityUsage: 0.3.1
+    flattening: 2.81.1
+    globalSecurity: 2.82.10
+    globalSecurityCallbacks: 0.1.0
+    globalSecurityFlattening: 0.1.0
+    globalServerURLs: 2.82.2
+    intellisenseMarkdownSupport: 0.1.0
+    responseFormat: 0.1.2
+    retries: 2.83.0
+    sdkHooks: 0.1.0
+generatedFiles:
+  - .gitattributes
+  - /models/components/aggregationresponse.go
+  - /models/components/byboundingbox.go
+  - /models/components/bydistance.go
+  - /models/components/bygeopolygon.go
+  - /models/components/byintersection.go
+  - /models/components/bywithinpolygon.go
+  - /models/components/connectedouterservice.go
+  - /models/components/cursorqueryrequest.go
+  - /models/components/cursorqueryresponse.go
+  - /models/components/httpmetadata.go
+  - /models/components/point.go
+  - /models/components/polygon.go
+  - /models/components/queryrequest.go
+  - /models/components/queryresponse.go
+  - /models/components/security.go
+  - /models/components/sortquery.go
+  - /models/components/spatialfilter.go
+  - /models/components/versioninfo.go
+  - /models/operations/info.go
+  - /models/operations/livenesscheck.go
+  - /models/operations/queryrecords.go
+  - /models/operations/querywithcursor.go
+  - /models/operations/readinesscheck.go
+  - CONTRIBUTING.md
+  - USAGE.md
+  - docs/models/components/aggregationresponse.md
+  - docs/models/components/byboundingbox.md
+  - docs/models/components/bydistance.md
+  - docs/models/components/bygeopolygon.md
+  - docs/models/components/byintersection.md
+  - docs/models/components/bywithinpolygon.md
+  - docs/models/components/connectedouterservice.md
+  - docs/models/components/cursorqueryrequest.md
+  - docs/models/components/cursorqueryresponse.md
+  - docs/models/components/httpmetadata.md
+  - docs/models/components/kind.md
+  - docs/models/components/order.md
+  - docs/models/components/point.md
+  - docs/models/components/polygon.md
+  - docs/models/components/queryrequest.md
+  - docs/models/components/queryrequestkind.md
+  - docs/models/components/queryresponse.md
+  - docs/models/components/queryresponseresults.md
+  - docs/models/components/results.md
+  - docs/models/components/security.md
+  - docs/models/components/sortquery.md
+  - docs/models/components/spatialfilter.md
+  - docs/models/components/versioninfo.md
+  - docs/models/operations/inforequest.md
+  - docs/models/operations/inforesponse.md
+  - docs/models/operations/livenesscheckrequest.md
+  - docs/models/operations/livenesscheckresponse.md
+  - docs/models/operations/option.md
+  - docs/models/operations/queryrecordsrequest.md
+  - docs/models/operations/queryrecordsresponse.md
+  - docs/models/operations/querywithcursorrequest.md
+  - docs/models/operations/querywithcursorresponse.md
+  - docs/models/operations/readinesscheckrequest.md
+  - docs/models/operations/readinesscheckresponse.md
+  - docs/sdks/healthcheckapi/README.md
+  - docs/sdks/info/README.md
+  - docs/sdks/sdk/README.md
+  - docs/sdks/searchapi/README.md
+  - go.mod
+  - healthcheckapi.go
+  - info.go
+  - internal/hooks/hooks.go
+  - internal/utils/contenttype.go
+  - internal/utils/form.go
+  - internal/utils/headers.go
+  - internal/utils/json.go
+  - internal/utils/pathparams.go
+  - internal/utils/queryparams.go
+  - internal/utils/requestbody.go
+  - internal/utils/retries.go
+  - internal/utils/security.go
+  - internal/utils/utils.go
+  - models/operations/options.go
+  - models/sdkerrors/sdkerror.go
+  - retry/config.go
+  - sdk.go
+  - searchapi.go
+  - types/bigint.go
+  - types/date.go
+  - types/datetime.go
+  - types/decimal.go
+  - types/pointers.go
+examples:
+  queryWithCursor:
+    speakeasy-default-query-with-cursor:
+      parameters:
+        header:
+          data-partition-id: "<id>"
+      requestBody:
+        application/json: {}
+      responses:
+        "200":
+          '*/*': "0xA4d5A8C9c7"
+  queryRecords:
+    speakeasy-default-query-records:
+      parameters:
+        header:
+          data-partition-id: "<id>"
+      requestBody:
+        application/json: {}
+      responses:
+        "200":
+          '*/*': "0x4A35aFAe56"
+  info:
+    speakeasy-default-info:
+      parameters:
+        header:
+          data-partition-id: "<id>"
+  readinessCheck:
+    speakeasy-default-readiness-check:
+      parameters:
+        header:
+          data-partition-id: "<id>"
+      responses:
+        "200":
+          '*/*': "<value>"
+  livenessCheck:
+    speakeasy-default-liveness-check:
+      parameters:
+        header:
+          data-partition-id: "<id>"
+      responses:
+        "200":
+          '*/*': "<value>"

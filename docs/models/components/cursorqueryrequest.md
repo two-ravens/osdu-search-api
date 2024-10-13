@@ -1,0 +1,16 @@
+# CursorQueryRequest
+
+
+## Fields
+
+| Field                                                                 | Type                                                                  | Required                                                              | Description                                                           |
+| --------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| `Kind`                                                                | [components.Kind](../../models/components/kind.md)                    | :heavy_check_mark:                                                    | N/A                                                                   |
+| `Limit`                                                               | **int*                                                                | :heavy_minus_sign:                                                    | N/A                                                                   |
+| `Query`                                                               | **string*                                                             | :heavy_minus_sign:                                                    | N/A                                                                   |
+| `ReturnedFields`                                                      | []*string*                                                            | :heavy_minus_sign:                                                    | N/A                                                                   |
+| `Sort`                                                                | [*components.SortQuery](../../models/components/sortquery.md)         | :heavy_minus_sign:                                                    | N/A                                                                   |
+| `QueryAsOwner`                                                        | **bool*                                                               | :heavy_minus_sign:                                                    | N/A                                                                   |
+| `TrackTotalCount`                                                     | **bool*                                                               | :heavy_minus_sign:                                                    | N/A                                                                   |
+| `SpatialFilter`                                                       | [*components.SpatialFilter](../../models/components/spatialfilter.md) | :heavy_minus_sign:                                                    | N/A                                                                   |
+| `Cursor`                                                              | **string*                                                             | :heavy_minus_sign:                                                    | N/A                                                                   |
