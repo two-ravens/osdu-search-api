@@ -1,5 +1,5 @@
 
-module openapi
+module github.com/two-ravens/osdu-search-api
 
 go 1.20
 
